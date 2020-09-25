@@ -16,8 +16,9 @@ crudeRate <- function(inputDataFrame, ratePer = 1000, confLevel = 95) {
   # Outputs:
   # outputDataFrame  Data frame with crude rates
   #=============================================================================================
-  library(magrittr) # Have tested loading in this package so that pipes ( %>% ) work.
+  # library(magrittr) # Have tested loading in this package so that pipes ( %>% ) work.
 
+  usethis::use_pipe()
   # Before doing analysis, need to do a series of checks on whether the data is in the correct format.
   # This includes whether the columns are named correctly
 
